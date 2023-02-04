@@ -9,6 +9,8 @@ import { StoreFirstGuard } from "./storeFirst.guard";
 import { StoreComponent } from "./store/store.component";
 import { CartDetailComponent } from "./store/cartDetail.component";
 import { CheckoutComponent } from "./store/checkout.component";
+import { ServiceWorkerModule } from "@angular/service-worker";
+import { environment } from "../environments/environment";
 
 registerLocaleData(localePL);
 
@@ -41,6 +43,9 @@ registerLocaleData(localePL);
       },
       { path: "**", redirectTo: "/store" },
     ]),
+    ServiceWorkerModule.register("ngsw-worker.js", {
+      enabled: environment.production,
+    }),
   ],
   providers: [StoreFirstGuard],
   bootstrap: [AppComponent],
