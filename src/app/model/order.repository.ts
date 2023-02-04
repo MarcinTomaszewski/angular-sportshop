@@ -7,7 +7,7 @@ import { RestDataSource } from "./rest.datasource";
 @Injectable()
 export class OrderRepository {
   private orders: Order[] = [];
-  private loaded: boolean = false;
+  private loaded = false;
 
   constructor(private dataSource: RestDataSource) {}
 

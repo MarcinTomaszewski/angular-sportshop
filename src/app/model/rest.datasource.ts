@@ -13,10 +13,12 @@ const PORT = 3500;
 @Injectable()
 export class RestDataSource {
   baseUrl: string;
+  // tslint:disable-next-line: variable-name
   auth_token: string;
 
   constructor(private http: HttpClient) {
-    this.baseUrl = `${PROTOCOL}://${location.hostname}:${PORT}/`;
+    // this.baseUrl = `${PROTOCOL}://${location.hostname}:${PORT}/`;
+    this.baseUrl = "/api/";
   }
 
   getProducts(): Observable<Product[]> {

@@ -64,5 +64,68 @@
       "price": 1200
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "cart": {
+        "lines": [
+          {
+            "product": {
+              "id": 5,
+              "name": "Stadion",
+              "category": "Piłka nożna",
+              "description": "Składany stadion na 35 000 osób.",
+              "price": 79500
+            },
+            "quantity": 1
+          },
+          {
+            "product": {
+              "id": 7,
+              "name": "Niestabilne krzesło",
+              "category": "Szachy",
+              "description": "Zmniejsza szanse przeciwnika.",
+              "price": 29.95
+            },
+            "quantity": 1
+          }
+        ],
+        "itemCount": 2,
+        "cartPrice": 79529.95
+      },
+      "shipped": false,
+      "name": "Marcin Tomaszewski",
+      "address": "Zodiakalna, 18",
+      "city": "Warszawa",
+      "zip": "02-474",
+      "state": "sdsad",
+      "country": "Polska",
+      "id": 1
+    },
+    {
+      "cart": {
+        "lines": [
+          {
+            "product": {
+              "id": 7,
+              "name": "Niestabilne krzesło",
+              "category": "Szachy",
+              "description": "Zmniejsza szanse przeciwnika.",
+              "price": 29.95
+            },
+            "quantity": 1
+          }
+        ],
+        "itemCount": 1,
+        "cartPrice": 29.95
+      },
+      "shipped": false,
+      "name": "Aneta Tomaszewska",
+      "address": "Zodiakalna 18",
+      "city": "Warszawa",
+      "zip": "02-474",
+      "country": "Polska",
+      "state": "sdfdsf",
+      "id": 2
+    }
+  ]
 }
