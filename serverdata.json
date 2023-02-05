@@ -126,6 +126,42 @@
       "country": "Polska",
       "state": "sdfdsf",
       "id": 2
+    },
+    {
+      "cart": {
+        "lines": [
+          {
+            "product": {
+              "id": 2,
+              "name": "Kamizelka ratunkowa",
+              "category": "Sporty wodne",
+              "description": "Chroni i dodaje uroku.",
+              "price": 48.95
+            },
+            "quantity": 1
+          },
+          {
+            "product": {
+              "id": 4,
+              "name": "Flagi narożne",
+              "category": "Piłka nożna",
+              "description": "Nadadzą twojemu boisku profesjonalny wygląd.",
+              "price": 34.95
+            },
+            "quantity": 1
+          }
+        ],
+        "itemCount": 2,
+        "cartPrice": 83.9
+      },
+      "shipped": false,
+      "name": "Marcin Tomaszewski",
+      "address": "Zodiakalna, 18",
+      "city": "Warszawa",
+      "zip": "02-474",
+      "state": "xzc",
+      "country": "dfgdfgdfg",
+      "id": 3
     }
   ]
 }
